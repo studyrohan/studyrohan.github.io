@@ -1,48 +1,14 @@
-## 关于
-
-我认为每一个人都需要一个简历网页以介绍自己，可以作为面试时的加分项，也可以放置在您的个人网站之中。
-
-这是一款响应式炫酷而优雅的个人简历网页，电脑与手机均适用，无需联网，纯前端HTML+CSS+JavaScript实现，可用于个人简历、个人网站、个人简介或学习使用，可以通过配置文件自动生成属于你自己的网页。
-
-## 演示
-
-[网页演示地址](https://happysnaker.github.io/Resume/)
-
-在手机或平板或电脑上查看该网页。
-
-
-
-## 项目结构
-
-前往[happysnaker/Resume-Web-Page项目仓库](https://github.com/happysnaker/Resume-Web-Page)clone项目，保存在你自己的文件中。
-
-Resume文件下：
-
-- config文件包含了项目的配置文件。
-- CSS文件下personal-info-main.css为主要的CSS代码，personal-info-animate.css为项目的动画CSS代码，其余CSS文件为引用库。
-- JS文件下personal-info-main.js为主要的JS代码，其余js文件为引用库。
-- images文件包含了可能用上的图片。
-- svg文件下包含了一些图标。
-- index.html为网页的入口。
-
-
-
-## 配置
-
-**在./config/config.js文件中配置您的信息以自动生成属于你自己的网页，遵循JavaScript对象声明规范，注意格式，对象变量中间不要漏写逗号，对象变量结尾不要多写逗号。**
-
-```javascript
 var config = {
     /*在这里配置你的基本信息，所有数据以字符串形式给出*/
-    name: "卢世荣",
+    name: "eddy liu",
     sex: "男",
-    age: "19",
-    phone: "19870887127",
-    email: "happysnaker@foxmail.com",
-    address: "现居浙江省义乌市",
+    age: "28",
+    phone: "...",
+    email: "eddyliu136@gmail.com",
+    address: "guangdong guanghzou",
     qq: "1637318597",
-    log: "Happysnaker",
-    excpect_work: "Java/Go后端开发",
+    log: "studyrohan",
+    excpect_work: "C++后端开发",
 
 
     /*在这里配置首页的座右铭集合*/
@@ -72,7 +38,7 @@ var config = {
 
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
-    about: "<p>你好！我叫卢世荣，性别男，南昌软件学院大二在读。我期望的工作岗位是Go/Java后端开发。</p>" +
+    about: "<p>你好！我叫卢世荣，性别男，南昌大学软件学院大二在读。我期望的工作岗位是Go/Java后端开发。</p>" +
         "<p>我有着较多的Java编程经验，计算机基础知识掌握扎实，能够在工作中很好的完成自己的任务。此外，我有着充满激情的工作态度，团队协同作战能力强，同时我也具备独立开发的能力，擅于发现并解决问题。我的执行力强、责任感高、集体荣誉感强、敢于担当，能够接受加班或出差等安排</p>" +
         "<p>十分期待与您的联系!</p>",
 
@@ -184,39 +150,3 @@ var config = {
     ]
 
 }
-```
-
-
-
-**如果您不需要配置该文件，请注释掉./JS/personal-info-main.js文件中顶层4行代码.**
-
-```function addScript(url) {
-function addScript(url) {
-    document.write("<script language=javascript src=./config/config.js></script>");
-}
-addScript();
-```
-
-
-
-## 参阅
-
-### 引用库
-
-[Bootstrap · The most popular HTML, CSS, and JS library in the world. (getbootstrap.com)](https://getbootstrap.com/)
-
-[AOS - Animate on scroll library (michalsnik.github.io)](http://michalsnik.github.io/aos/)
-
-[anime.js官网_免费、灵活的轻型JavaScript动画库 | animejs](https://www.animejs.cn/)
-
-[jQuery](https://jquery.com/)
-
-
-
-### 其他
-
-[burc-li/timeLine: 纯CSS时间轴 (github.com)](https://github.com/burc-li/timeLine)
-
-[VincentGarreau/particles.js: A lightweight JavaScript library for creating particles (github.com)](https://github.com/VincentGarreau/particles.js)
-
-
