@@ -25,7 +25,7 @@ var config = {
 
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
-    about: "<p>你好！我叫卢世荣，性别男，南昌大学软件学院大二在读。我期望的工作岗位是Go/Java后端开发。</p>" +
+    about: "<p>你好！我叫eddy liu</p>" +
         "<p>熟练掌握C++，踩过几年的坑</p>"+
         "<p>Windows，Linux  下都有编码经验</p>"+
         "<p>技术栈：C++，python，QT，sqlite，opengl</p>",
