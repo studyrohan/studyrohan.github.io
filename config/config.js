@@ -5,14 +5,13 @@ var config = {
     age: "28",
     phone: "...",
     email: "eddyliu136@gmail.com",
-    address: "china guanghzou",
+    address: "china guangzhou",
     log: "studyrohan",
     excpect_work: "C++后端开发",
 
 
     /*在这里配置首页的座右铭集合*/
     motto: [
-        "马老师：发生甚么事了",
         "我欲将心向明月，奈何明月照沟渠。",
         "春风得意马蹄疾，一日看尽长安花。",
         "蒹葭苍苍，白露为霜；所谓伊人，在水一方。",
@@ -20,7 +19,7 @@ var config = {
 
 
     /*在这里配置首页的见面信息，你可以内嵌HTML标签以调整格式*/
-    welcome: "你好，我是eddy liu,目前从事工业软件行业，哈尔滨工业大学硕士" +
+    welcome: "你好，我是eddy liu,目前从事工业软件行业，哈尔滨工业大学硕士。" +
              "很高兴见到你!",
 
 
