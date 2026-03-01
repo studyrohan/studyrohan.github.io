@@ -20,7 +20,7 @@ var config = {
 
 
     /*在这里配置首页的见面信息，你可以内嵌HTML标签以调整格式*/
-    welcome: "你好，我是eddy liu,目前从事工业软件行业，哈尔滨工业大学硕士，哈尔滨工程大学本科" +
+    welcome: "你好，我是eddy liu,目前从事工业软件行业，哈尔滨工业大学硕士" +
              "很高兴见到你!",
 
 
@@ -62,9 +62,7 @@ var config = {
      * 通过查看实际效果以调整字题长度
      */
     portfolio: [
-        ["./images/pro-1.png", "http://1.15.234.109:8000/", "个人博客", "这里记录了我的Java后端学习笔记<br>持续更新"],
-        ["./images/pro-2.png", "https://github.com/studyrohan/BSpline_learn", "样条的C++实现", "采用C++编写的样条实现<br>2021/7/23"],
-        ["https://pic3.zhimg.com/80/v2-d9766956d5c85c2780e4c5008fd946ca_1440w.jpg", "https://github.com/happysnaker/StudentsManageSystem", "学生管理系统", "C语言+AVL树+多重双向表实现"]
+        ["./images/Parametic_Cubic_Spline.svg.png", "https://github.com/studyrohan/BSpline_learn", "样条的C++实现", "采用C++编写的样条实现<br>2021/7/23"],
     ],
 
 
@@ -86,7 +84,7 @@ var config = {
         ["2020/3/30 — 2021/8/10", "<br>研发工程师",
             "<p><strong>中望软件 一体化研发部</strong></p>" +
             "<p>材料库设计：对材料库进行界面设计，支持进行材料的创建，查看，修改，删除。支持外部材料库导入，格式包括 xml，dat  文件</p>"+
-            "<p>ZWSim  内存泄漏检测：利用 Windows  自带的机制，对 ZWSIm  进行内存泄漏检测，同时引入了 vld  对求解器进行内存泄漏检测。</p>"+
+            "<p>ZWSim  内存泄漏检测：利用 Windows  自带的机制，对 ZWSim  进行内存泄漏检测，同时引入了 vld  对求解器进行内存泄漏检测。</p>"+
             "<p>字符编码项目：梳理所有模块的字符编码情况，整理，引入 boost file system库，包装成新的文件系统。适配所有模块。</p>"+
             "<p>cax  一体化项目：几何渲染，网格渲染，几何建模，几何特征封装，网格数据引用。</p>"
         ]
@@ -99,8 +97,8 @@ var config = {
      * 建议填写您的校级及以上得奖经历或或其他证书
      */
     others: [
-        ["2023-08-28", "软件设计师证书", "获取软件设计师资格"],
-        ["2021-04-24", "第六届团队程序设计天梯赛个人国家三等奖", ""]
+        ["2023-05-12", "软件设计师证书", "获取软件设计师资格"],
+        ["2021-12-23", "系统集成项目管理工程师", "获取系统集成项目管理工程师资格"]
     ],
 
 
@@ -113,9 +111,8 @@ var config = {
      * 建议您放置数量 <= 5
      */
     icon: [
-        ["./svg/LeetCode.svg", "https://leetcode.cn/u/ai-di-2366/", "我的力扣主页"],
+        //["./svg/LeetCode.svg", "https://leetcode.cn/u/ai-di-2366/", "我的力扣主页"],
         ["./svg/github.svg", "https://github.com/studyrohan", "我的GitHub主页"],
-        ["./svg/知乎.svg", "https://www.nowcoder.com/users/715538873", "我的牛客主页"]
     ],
 
 
